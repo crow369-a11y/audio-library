@@ -1,4 +1,3 @@
-# handler.py
 # io_handler.py
 
 def load_records(filename="/home/suia/Desktop/project/audio_library.csv"):
