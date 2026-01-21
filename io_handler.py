@@ -1,6 +1,5 @@
 # io_handler.py
-
-def load_records(filename="/home/suia/Desktop/project/audio_library.csv"):
+def load_records(filename="audio_library.csv"):
     """
     Читает файл audio_library.csv вручную через split(';').
     Возвращает список объектов AudioRecord.
