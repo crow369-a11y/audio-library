@@ -26,6 +26,6 @@
 - обработка ошибок ввода
 
 ## Как запустить
-1. Скачайте репозиторий
-2. Убедитесь, что `audio_library.csv` находится в той же папке, что и `main.py`
-3. Запустите: `python3 main.py`
+1. Скачайте zip файл main, unzip в папку Downloads
+2. В термил вводим `cd ~/Downloads/audio-library-main` (not sorry если у вас винда <3)
+4. Запускаем `python3 main.py`
