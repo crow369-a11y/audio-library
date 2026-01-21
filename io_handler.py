@@ -21,12 +21,10 @@ def load_records(filename="/home/suia/Desktop/project/audio_library.csv"):
         return []
 
     records = []
-    # Первая строка — заголовок (игнорируем, но проверяем количество полей)
-    # начинаем со 2-й строки
     for line_num, line in enumerate(lines[1:], start=2):
         line = line.strip()
         if not line:
-            continue  # пропускаем пустые строки
+            continue
 
         parts = line.split(';')
         if len(parts) != 6:
